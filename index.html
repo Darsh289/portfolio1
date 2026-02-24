@@ -1,74 +1,85 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Darshan Bhatt-Portfolio</title>
-    <link rel="stylesheet" href="index.css">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Darshan Bhatt | Portfolio</title>
+    <link rel="stylesheet" href="index.css" />
 </head>
 <body>
-<header>
-    <h1 class="head">Darshan Bhatt</h1>
-    <nav>
-        <a class="home" href="#Home">Home</a>
-        <a class="skills" href="#Skills">Skills</a>
-        <a class="about" href="#About">About Me</a>
-        <a class="projects" href="#Projects">Projects</a>
-        <a class="contact" href="#Contact">Contact</a>
+
+<header class="header">
+    <h1 class="logo">Darshan Bhatt</h1>
+    <nav class="navbar">
+        <a href="#home">Home</a>
+        <a href="#skills">Skills</a>
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
     </nav>
 </header>
 
-<main>
-    <section class="welcome">
-        <h2>Welcome to My Portfolio</h2>
-
-        <!-- IMAGE ADDED HERE -->
-        <img src="C:\Users\darsh\OneDrive\Desktop\Bootcamp_portfolio\image.jpeg" alt="Darshan Bhatt" class="profile-img">
-
+<section class="hero" id="home">
+    <div class="hero-content">
+        <h2>Hello, I'm <span>Darshan Bhatt</span></h2>
         <p>
-            Hi, I'm Darshan Bhatt, a passionate software developer with
-            expertise in web development, mobile app development, and
-            machine learning.
+            Passionate Software Developer specializing in Web Development,
+            Mobile Apps, and Machine Learning solutions.
         </p>
-    </section>
+        <a href="#contact" class="btn">Hire Me</a>
+    </div>
+    <img src="image.jpeg" alt="Darshan Bhatt" class="profile-img" />
+</section>
 
-    <section class="home" id="Home">
-        <h2>Home</h2>
-        <p>Welcome to my portfolio website! Explore my work.</p>
-    </section>
+<section class="skills section" id="skills">
+    <h2 class="section-title">My Skills</h2>
+    <div class="skills-grid">
+        <div class="skill-card">Python / JavaScript / Java</div>
+        <div class="skill-card">HTML / CSS / React / Node.js</div>
+        <div class="skill-card">Flutter / React Native</div>
+        <div class="skill-card">Machine Learning (TensorFlow, Sklearn)</div>
+    </div>
+</section>
 
-    <section class="skills" id="Skills">
-        <h2>Skills</h2>
-        <ul>
-            <li>Programming Languages: Python, JavaScript, Java</li>
-            <li>Web Development: HTML, CSS, React, Node.js</li>
-            <li>Mobile App Development: Flutter, React Native</li>
-            <li>Machine Learning: TensorFlow, Scikit-learn</li>
-        </ul>
-    </section>
+<section class="about section" id="about">
+    <h2 class="section-title">About Me</h2>
+    <p>
+        I am a dedicated software developer who enjoys building creative,
+        scalable, and user‑friendly applications. I love learning new
+        technologies and solving real‑world problems with code.
+    </p>
+</section>
 
-    <section class="about" id="About">
-        <h2>About Me</h2>
-        <p>I am a software developer passionate about technology.</p>
-    </section>
+<section class="projects section" id="projects">
+    <h2 class="section-title">Projects</h2>
+    <div class="projects-grid">
+        <div class="project-card">
+            <h3>Task Management Web App</h3>
+            <p>Productivity web application for managing daily tasks.</p>
+        </div>
+        <div class="project-card">
+            <h3>Fitness Tracking Mobile App</h3>
+            <p>Mobile app for tracking workouts and health data.</p>
+        </div>
+        <div class="project-card">
+            <h3>Housing Price ML Model</h3>
+            <p>Machine learning model for real estate price prediction.</p>
+        </div>
+    </div>
+</section>
 
-    <section class="projects" id="Projects">
-        <h2>Projects</h2>
-        <ul>
-            <li>Task Management Web App</li>
-            <li>Fitness Tracking Mobile App</li>
-            <li>Housing Price ML Model</li>
-        </ul>
-    </section>
+<section class="contact section" id="contact">
+    <h2 class="section-title">Contact Me</h2>
+    <p>Email: darshanbhatt289@gmail.com</p>
+    <p>
+        <a href="#">LinkedIn</a> |
+        <a href="#">GitHub</a>
+    </p>
+</section>
 
-    <section class="contact" id="Contact">
-        <h2>Contact</h2>
-        <ul>
-            <li>Email: darshanbhatt289@gmail.com</li>
-            <li><a href="#">LinkedIn</a></li>
-            <li><a href="#">GitHub</a></li>
-        </ul>
-    </section>
-</main>
+<footer class="footer">
+    <p>© 2026 Darshan Bhatt | All Rights Reserved</p>
+</footer>
+
 </body>
 </html>
